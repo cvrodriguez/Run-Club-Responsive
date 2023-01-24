@@ -1,0 +1,104 @@
+body {
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+    background-color: lightsalmon;
+}
+
+header {
+    display: flex;
+    background-color: teal;
+}
+
+li {
+    display: inline;
+    padding: 15px;
+}
+
+li a {
+    color: lightsalmon;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    
+    
+    width: 100%;
+
+}
+
+.village {
+    
+    background-color: rgba(0.5, 0.5, 0.5, 0.5);
+    width: 100%;
+    height: 100px;
+    margin-top: 160px;
+
+
+}
+
+.village h1 {
+    text-align: center;
+    color: coral;
+    font-size: 32px;
+    margin-top: 30px;
+
+}
+.us{
+    margin-top: 220px;
+    padding: 16px;
+    
+}
+.us h2{
+    color: #FFFF00;
+    line-height: 50px;
+}
+.us p{
+    color: aliceblue;
+}
+.usA{
+    color: #551A8B;
+}
+.banner{
+    width: 100%;
+    display: flex;
+    align-content: space-between;
+    padding-top: 80px;
+   
+}
+
+.banner div{
+    margin: 5px;
+}
+
+.photo{
+    width: 100%;
+}
+
+@media only screen and (max-width: 1024px ){
+    .banner{
+        flex-direction: column;
+    }
+    .banner div{
+        margin: 0;
+    }
+
+    .photo{
+        width: 100%;
+        padding: 0;
+        padding-top: 30px;
+    }
+}
+.advisor{
+    background-color: teal;
+    width: 100%;
+    height: 300px;
+}
+.advisor h1{
+    font-size: 40px;
+}
+.advisorText {
+    color: #FFFF00;
+    padding: 20px;
+}
